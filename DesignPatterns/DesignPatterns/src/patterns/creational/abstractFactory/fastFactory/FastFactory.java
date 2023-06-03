@@ -1,8 +1,8 @@
-package patterns.creational.AbstractFactory.FastFactory;
+package patterns.creational.abstractFactory.fastFactory;
 
-import patterns.creational.AbstractFactory.service.AbstractFactory;
-import patterns.creational.AbstractFactory.service.HtmlDocument;
-import patterns.creational.AbstractFactory.service.WordDocument;
+import patterns.creational.abstractFactory.service.AbstractFactory;
+import patterns.creational.abstractFactory.service.HtmlDocument;
+import patterns.creational.abstractFactory.service.WordDocument;
 
 public class FastFactory implements AbstractFactory {
 

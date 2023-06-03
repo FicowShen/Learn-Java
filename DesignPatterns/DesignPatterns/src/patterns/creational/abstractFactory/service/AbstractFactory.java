@@ -1,8 +1,11 @@
-package patterns.creational.AbstractFactory.service;
+package patterns.creational.abstractFactory.service;
 
-import patterns.creational.AbstractFactory.FastFactory.FastFactory;
-import patterns.creational.AbstractFactory.GoodFactory.GoodFactory;
+import patterns.creational.abstractFactory.fastFactory.FastFactory;
+import patterns.creational.abstractFactory.goodFactory.GoodFactory;
 
+/***
+ * 提供一个创建一系列相关或相互依赖对象的接口，而无需指定它们具体的类。
+ */
 public interface AbstractFactory {
     HtmlDocument createHtml(String md);
     WordDocument createWord(String md);

@@ -1,26 +1,27 @@
-package patterns.creational.AbstractFactory.FastFactory;
+package patterns.creational.abstractFactory.goodFactory;
 
-import patterns.creational.AbstractFactory.service.HtmlDocument;
+import patterns.creational.abstractFactory.service.HtmlDocument;
 import util.StringUtil;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-public class FastHtmlDocument implements HtmlDocument {
-
+public class GoodHtmlDocument implements HtmlDocument {
     private String md;
 
-    public FastHtmlDocument(String md) { this.md = md; }
-
+    public GoodHtmlDocument(String md) {
+        this.md = md;
+    }
     @Override
     public String toHtml() {
-        return StringUtil.lines(md).map(s -> {
+        String body = StringUtil.lines(md).map(s -> {
             if (s.startsWith("#")) {
                 return "<h1>" + s.substring(1) + "</h1>";
             }
             return "<p>" + s + "</p>";
-        }).reduce("", (res, s) -> res + s + "\n");
+        }).reduce("", (acc, s) -> acc + s + "\n");
+        return "<html>\n<body>\n" + body + "\n</body>\n</html>";
     }
 
     @Override

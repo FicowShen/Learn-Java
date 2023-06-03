@@ -1,4 +1,4 @@
-package patterns.creational.Factory;
+package patterns.creational.factory;
 
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package patterns.creational.AbstractFactory.service;
+package patterns.creational.abstractFactory.service;
 
 import java.io.IOException;
 import java.nio.file.Path;

@@ -1,6 +1,6 @@
-package patterns.creational.AbstractFactory.FastFactory;
+package patterns.creational.abstractFactory.fastFactory;
 
-import patterns.creational.AbstractFactory.service.WordDocument;
+import patterns.creational.abstractFactory.service.WordDocument;
 import util.StringUtil;
 
 import java.io.IOException;

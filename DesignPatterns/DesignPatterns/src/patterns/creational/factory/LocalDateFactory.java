@@ -1,4 +1,4 @@
-package patterns.creational.Factory;
+package patterns.creational.factory;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
