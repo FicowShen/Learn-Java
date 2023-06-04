@@ -8,7 +8,7 @@ import java.util.concurrent.Callable;
  */
 public class RunnableAdapter implements Runnable {
     private Callable<?> callable;
-    
+
     public RunnableAdapter(Callable<?> callable) {
         this.callable = callable;
     }
