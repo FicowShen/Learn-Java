@@ -6,5 +6,8 @@ public class Main {
         // Press Opt+Enter with your caret at the highlighted text to see how
         // IntelliJ IDEA suggests fixing it.
         System.out.println("Run tests to check design patterns");
+        System.out.println("References:");
+        System.out.println("https://www.liaoxuefeng.com/wiki/1252599548343744/1264742167474528");
+        System.out.println("Head First 设计模式");
     }
 }
