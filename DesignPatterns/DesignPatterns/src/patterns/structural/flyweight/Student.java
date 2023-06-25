@@ -3,6 +3,9 @@ package patterns.structural.flyweight;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * 运用共享技术有效地支持大量细粒度的对象。
+ */
 public class Student {
 
     private static final Map<String, Student> cache = new HashMap<>();

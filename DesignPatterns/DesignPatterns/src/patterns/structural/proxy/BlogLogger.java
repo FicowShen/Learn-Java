@@ -1,9 +1,6 @@
 package patterns.structural.proxy;
 
-import jdk.nashorn.internal.objects.annotations.Getter;
-
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class BlogLogger implements BlogProvider {
